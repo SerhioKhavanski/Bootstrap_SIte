@@ -55,7 +55,7 @@ header,footer{
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
 }
 
-.about,.programmOfCourse{
+.about,.programmOfCourse,.author{
     background-color:#eee;
 }
 .about i{
@@ -96,6 +96,13 @@ header,footer{
     padding: 25px;
     border: 3px solid var(--color1);
 }
+
+.author{
+    padding-bottom: 0;
+}
+/* .imgkh{
+    max-width: 260px;
+} */
 
 .color1{
     color: var(--color1);
