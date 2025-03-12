@@ -1,0 +1,131 @@
+:root{
+    --color1: #05b1b1;
+    --color2: #52339a;
+}
+section{
+    padding: 100px 0;
+}
+header{
+    padding: 200px 0;
+}
+header,footer{
+    background: url(../img/pattern.png), var(--color1);
+    background: url(../img/pattern.png), -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+    background: url(../img/pattern.png), -webkit-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+    background: url(../img/pattern.png), linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+    filter: url(../img/pattern.png), progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--color1), endColorstr=var(--color2), GradientType=1);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.kh_play{
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
+.kh_play:hover{
+    background-color:var(--color2);
+}
+.kh_triangle{
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px ;
+    border-color: transparent transparent transparent var(--bs-white );
+}
+.btn-kh{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color:var(--color2);
+}
+.btn-kh:hover{
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
+.about,.programmOfCourse,.author,.buy{
+    background-color:#eee;
+}
+.about i{
+    font-style: 25px;
+    color: var(--color2);
+}
+.kh_circle{
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color1);
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+
+.forWho h5{
+    padding: 50px;
+    border: 3px solid var(--color1);
+}
+
+.accordion-button:not(.collapsed){
+    color:var(--bs-white);
+    background-color: var(--color2);
+}
+.accordion-button:not(.collapsed)::after {
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.learning h5{
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
+.btn-not-m{
+    margin: 0;
+}
+
+.author{
+    padding-bottom: 0;
+}
+.rewiew img{
+    border: 3px solid var(--color1)
+}
+
+footer{
+    padding: 30px 0;
+}
+footer .btn{
+    width: 40px;
+    height: 40px;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+}
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}
+.bg1{ 
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
