@@ -2,7 +2,7 @@
     --color1: #05b1b1;
     --color2: #52339a;
 }
-header,footer,section{
+section{
     padding: 100px 0;
 }
 header{
@@ -107,6 +107,16 @@ header,footer{
     border: 3px solid var(--color1)
 }
 
+footer{
+    padding: 30px 0;
+}
+footer .btn{
+    width: 40px;
+    height: 40px;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+}
 .color1{
     color: var(--color1);
 }
