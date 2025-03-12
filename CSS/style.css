@@ -100,9 +100,9 @@ header,footer{
 .author{
     padding-bottom: 0;
 }
-/* .imgkh{
-    max-width: 260px;
-} */
+.rewiew img{
+    border: 3px solid var(--color1)
+}
 
 .color1{
     color: var(--color1);
@@ -111,8 +111,8 @@ header,footer{
     color: var(--color2);
 }
 .bg1{ 
-    color: var(--color1);
+    background-color: var(--color1);
 }
 .bg2{
-    color: var(--color2);
+    background-color: var(--color2);
 }
